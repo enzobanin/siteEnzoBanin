@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="../imagens/favicon-32x32.png">
+    <link rel="stylesheet" type="text/css" href="../estilos/formulario.css" />
+    <link rel="stylesheet" type="text/css" href="../estilos/layout.css">
+    <title>Empresa ReFree</title>
+</head>
+
+<body>
+    <header>
+        <img src="../imagens/5288ca0744af4f548da771724725da80-free.png" alt="Logo do site" />
+        <h1>ReFree Enterprise</h1>
+        <nav>
+            <ul>
+                <li><a href="../paginas/index.html"><b>PÁGINA PRINCIPAL</b></a></li>
+                <li><a href="../paginas/contato.html"><b>CONTATO</b></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="formulario">
+            <h2>Contate-nos:</h2>
+            <br>
+            <form>
+                <label for="nome"><b>Nome*</b></label>
+                <input type="text" id="nome" name="nome" required><br>
+
+                <label for="email"><b>E-mail*</b></label>
+                <input type="email" id="email" name="email" required><br>
+
+                <label for="telefone"><b>Telefone</b></label>
+                <input type="tel" id="telefone" name="telefone"><br>
+
+                <label for="endereco"><b>Endereço</b></label>
+                <input type="text" id="endereco" name="endereco"><br>
+
+                <label for="nascimento"><b>Data de Nascimento</b></label>
+                <input type="date" id="nascimento" name="nascimento"><br>
+
+                <label for="motivo"><b>Onde nos conheceu?</b></label>
+                <select id="motivo" name="motivo">
+                    <option value="amigos">Amigos</option>
+                    <option value="rede">Rede Social</option>
+                    <option value="anuncio">Anúncios</option>
+                    <option value="outros">Outros</option>
+                </select><br>
+
+                <label for="mensagem"><b>Mensagem</b></label>
+                <textarea id="mensagem" name="mensagem" rows="4" ></textarea><br>
+
+                <label for="novidades"><b>Deseja receber novidades?</b></label><br>
+                <input type="checkbox" id="novidades" name="novidades">
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2024 - Enzo Eiji Banin</p>
+    </footer>
+</body>
+
+</html>
